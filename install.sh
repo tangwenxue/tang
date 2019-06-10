@@ -33,7 +33,7 @@ read -p "" nodered_auth
 [ -z "${nodered_auth}" ] && nodered_auth=':'
 
 echo "[!!!注意] 从安装器v0.5版本开始,拦截未知设备无需填写拦截词,如果需要拦截特定情况的可以输入"
-echo "请输入响应拦截词,多个拦截词使用|分割3,默认值为[空]:"
+echo "请输入响应拦截词,多个拦截词使用|分割,默认值为[空]:"
 read -p "" keywords
 [ -z "${keywords}" ] && keywords=""
 
